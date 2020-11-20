@@ -1,0 +1,208 @@
+/* all pages */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+:root {
+  --lite-bg: #ffffff;
+  --midl-bg: #f5f4fa;
+  --dark-bg: #2f303a;
+  --title: #212121;
+  --text: #757575;
+  --elements: #2196f3;
+  --foter-gray: rgba(255, 255, 255, 0.6);
+}
+* {
+  outline: 1px solid black;
+}
+body {
+  background-color: var(--lite-bg);
+  /* font-family: 'Oleo Script', cursive; */
+  font-family: 'Roboto', sans-serif;
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+h2,
+h3 {
+  color: var(--title);
+}
+
+.hero,
+footer {
+  background: var(--dark-bg);
+  color: var(--lite-bg);
+}
+/* nav */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--elements);
+}
+nav .logo span {
+  color: #000000;
+}
+.nav-linc:link {
+  color: var(--title);
+}
+.nav-linc {
+  color: var(--title);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-linc:hover,
+.nav-linc:focus,
+.nav-linc.current,
+.nav-contact:hover {
+  color: var(--elements);
+}
+
+/* nav contact */
+.nav-contact {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+footer .logo span {
+  color: var(--lite-bg);
+}
+address {
+  font-style: normal;
+}
+address a {
+  font-style: normal;
+  color: var(--foter-gray);
+}
+
+/* studio page */
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--elements);
+  color: var(--lite-bg);
+}
+.advantages ul {
+  display: flex;
+}
+.advantages h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantages p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.working-moments h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team {
+  background-color: var(--midl-bg);
+}
+.our-team ul {
+  display: flex;
+}
+.our-team li {
+  background-color: var(--lite-bg);
+}
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Portfolio page */
+.our-works .sorter {
+  display: flex;
+}
+.sorter button {
+  background-color: var(--midl-bg);
+}
+.sorter button:hover,
+.sorter button:focus {
+  background-color: var(--elements);
+  color: var(--lite-bg);
+}
+.our-works .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.items p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
