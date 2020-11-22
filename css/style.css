@@ -270,11 +270,17 @@ address a {
   display: flex;
   flex-wrap: wrap;
 }
+.card {
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
 .our-works .items li {
-  max-width: 370px;
-  border: 1px solid #eeeeee;
+  /* max-width: 370px; */
+  /* border: 1px solid #eeeeee; */
   margin-right: 30px;
   margin-bottom: 30px;
+  /* overflow: hidden; */
 }
 .our-works .items li:nth-child(3n) {
   margin-right: 0px;
@@ -283,7 +289,7 @@ address a {
   margin-bottom: 0px;
 }
 .items h2 {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
