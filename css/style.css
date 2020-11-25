@@ -23,6 +23,9 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+button {
+  outline: none;
+}
 body {
   background-color: var(--lite-bg);
   /* font-family: 'Oleo Script', cursive; */
