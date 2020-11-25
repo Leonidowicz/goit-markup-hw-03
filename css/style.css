@@ -279,6 +279,7 @@ address a {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .our-works .items li {
   /* max-width: 370px; */
@@ -294,8 +295,6 @@ address a {
   margin-bottom: 0px;
 }
 .items h2 {
-  padding-top: 20px;
-  margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -303,8 +302,6 @@ address a {
   letter-spacing: 0.06em;
 }
 .items p {
-  margin-left: 24px;
-  margin-bottom: 20px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
